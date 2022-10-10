@@ -1,12 +1,16 @@
 .Super {color: pink;}
 #Smoothie {color: rgb(209, 209, 5);}
 
-.health {background-color: black;
+.health {background-color: rgb(244, 67, 182);
          color: #ffe335;}
 
 .week {font-style: italic;}
 
+.cold {color: rgb(28, 144, 245);}
 .kale, .spinach, .apple, .kiwifruit, .avo {color: green;}
+.straw {color: rgb(184, 17, 17);}
+.blue {color: blueviolet;}
+.banana {color: #d3b80b;}
 
 .beginning, .start {font-style: oblique;
                     color: coral;}
