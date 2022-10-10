@@ -1,4 +1,11 @@
-#Toast {text-align: center;}
+#Toast {text-align: center;
+        text-decoration: underline;}
+
+    
 .Sliced {font-family: "Courier New";}
 
+.week {font-style: italic;}
 
+.beginning, .start {text-decoration-style: wavy;
+                color: rgb(255, 80, 185);}
+                

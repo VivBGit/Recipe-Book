@@ -1,4 +1,9 @@
 .Super {color: pink;}
 #Smoothie {color: rgb(209, 209, 5);}
+
+.week {font-style: italic;}
+
 .kale, .spinach, .apple, .kiwifruit, .avo {color: green;}
 
+.beginning, .start {font-style: oblique;
+                    color: coral;}
