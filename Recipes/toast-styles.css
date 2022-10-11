@@ -9,3 +9,6 @@
 .beginning, .start {text-decoration-style: wavy;
                 color: rgb(255, 80, 185);}
                 
+.beginning.recipe {text-decoration-line: underline;}  
+.start.recipe {font-weight: 400;}
+

@@ -5,5 +5,13 @@
 .week {font-style: italic;}
 .beginning, .start {font-style: oblique;
                     color: coral;}
+
+.food {background-color: cornsilk;}
+.food.brown {color: brown;}
+.food.red {color: crimson;}
+.food.plain {color: blanchedalmond;
+            background-color:darkkhaki;}
+.yellow {color: rgb(165, 165, 6);}
+
 .hot {background-color: red;}
 .wine {color: red;}
