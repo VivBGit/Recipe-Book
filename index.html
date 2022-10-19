@@ -3,18 +3,36 @@
 <head>
     <meta charset="utf-8">
     <title>Recipes For One Week</title>
-    <style> h1 {text-align: center;
-                text-decoration-line: underline;
-                font-weight: 800;
-                font-size: 16;
-                color: rgb(255, 183, 0);}
-             .a, .break {color: rgb(255, 183, 0);}
-             .a, .snack {color: #008000;}
-             .a, .dinner {color: rgb(176, 2, 2);}
+    <style> h1 {
+        text-align: center;
+        text-decoration-line: underline;
+        font-weight: 800;
+        font-size: 16;
+        color: rgb(255, 183, 0);}
+
+        .a, .break {color: rgb(255, 183, 0);}
+        .a, .snack {color: #008000;}
+        .a, .dinner {color: rgb(176, 2, 2);}
+                </style>
+
+    <style> .page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;}
+                </style>
+
+    <style> ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: flex-start;
+        padding-left: 5px;
+        gap: 15px;}
                 </style>
 </head>
 
 <body>
+    <div class="page">
     <h1>Recipes For One Week</h1>
     <img src="../Recipe-Book/recipe-images/Titlepic.jpg"
     alt="3 different meal bites lined up"
@@ -26,5 +44,6 @@
         <br>
         <li><a class="dinner" href="../Recipe-Book/Recipes/Dinner-Spaghetti.html">DINNER</a></li>
     </ul>
+    </div>
 </body>
 </html>

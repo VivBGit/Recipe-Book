@@ -1,8 +1,25 @@
+.s-s {
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+    gap: 2px;}
+
+.smooth {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 30px;
+    margin-left: 15px;}
+
+.Super, #Smoothie {
+    font-size: 40px;
+    font-weight: bold;}
+
 .Super {color: pink;}
 #Smoothie {color: rgb(209, 209, 5);}
 
-.health {background-color: rgb(244, 67, 182);
-         color: #ffe335;}
+.health {
+    background-color: rgb(244, 67, 182);
+    color: #ffe335;}
 
 .week {font-style: italic;}
 
@@ -12,5 +29,6 @@
 .blue {color: blueviolet;}
 .banana {color: #d3b80b;}
 
-.beginning, .start {font-style: oblique;
-                    color: coral;}
+.beginning, .start {
+    font-style: oblique;
+    color: coral;}

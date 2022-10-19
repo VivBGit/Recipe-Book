@@ -1,3 +1,15 @@
+.toast-img {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;}
+
+.nostalgia { 
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;}
+        
 #Toast {text-align: center;
         text-decoration: underline;}
 
@@ -6,8 +18,9 @@
 
 .week {font-style: italic;}
 
-.beginning, .start {text-decoration-style: wavy;
-                color: rgb(255, 80, 185);}
+.beginning, .start {
+        text-decoration-style: wavy;
+        color: rgb(255, 80, 185);}
                 
 .beginning.recipe {text-decoration-line: underline;}  
 .start.recipe {font-weight: 400;}

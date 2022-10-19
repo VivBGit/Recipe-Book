@@ -1,10 +1,24 @@
-.bolognese {color: rgb(160, 5, 5);
-            background-color: rgb(245, 128, 128);
-            font-family: Impact, 'Arial Narrow Bold', sans-serif;
-            font-weight: 600;}
+.spag-bol {
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;}
+
+.bolognese {
+    color: rgb(160, 5, 5);
+    background-color: rgb(245, 128, 128);
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;}
+
 .week {font-style: italic;}
-.beginning, .start {font-style: oblique;
-                    color: coral;}
+
+.beginning, .start {
+    font-style: oblique;
+    color: coral;}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    width: 400px;}
 
 .food {background-color: cornsilk;}
 .food.brown {color: brown;}
